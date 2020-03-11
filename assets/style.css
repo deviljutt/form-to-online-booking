@@ -1,0 +1,36 @@
+#datatable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;   
+   margin-top: 25px;
+    width: 100%;
+  }
+  
+  #datatable td, #datatable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #datatable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #datatable tr:hover {background-color: #ddd;}
+  
+  #datatable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  table#datatable select {
+      width: 100%;
+  }
+  table#datatable input[type="text"] {
+      width: 100%;
+      max-width: 400px;
+  }
+  
+  h2.tablehead {
+      margin-top: 29px !important;
+      font-weight: 500 !important;
+  }
+  
